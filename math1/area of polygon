@@ -1,0 +1,15 @@
+import numpy as np
+
+
+num = int(input("enter the number of edges of the polygon"))
+print("enter the coordinates of each point of the polygon anticlockwise")
+cx = []
+cy = []
+for a in range(num):
+    cx.append(float(input()))
+    cy.append(float(input()))
+area = 0.0
+for a in range(num):
+    area += cx[a - 1] * cy[a] - cx[a] * cy[a - 1]
+area = np.abs(area / 2)
+print(area)
