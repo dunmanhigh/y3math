@@ -1,0 +1,15 @@
+import numpy as np
+a = input("For a*sin/cos/tan(bx+c), enter the value of a, b, and c:")
+b = input()
+c = input()
+a = float(a)
+b = float(b)
+c = float(c)
+ang = input(" angle in degree:")
+ang = float(ang) * 2 * np.pi / 360.0
+ans_sin = a * np.sin(b * ang + c)
+ans_cos = a * np.cos(b * ang + c)
+ans_tan = a * np.tan(b * ang + c)
+print("sin:", ans_sin)
+print("cos:", ans_cos)
+print("tan:", ans_tan)
