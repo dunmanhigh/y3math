@@ -1,0 +1,7 @@
+X1 = float(input("input x-coordinate of first point"))
+Y1 = float(input("input y-coordinate of first point"))
+X2 = float(input("input x-coordinate of second point"))
+Y2 = float(input("input y-coordinate of second point"))
+XF = ((X1+X2)/2)
+YF = ((Y1+Y2)/2)
+print("The midpoint is (", XF,"," , YF , ")")
