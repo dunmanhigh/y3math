@@ -7,6 +7,11 @@ a = int(input("a: "))
 b = int(input("b: "))
 c = int(input("c: "))
 
+if (a > 0);
+  print("Positive")
+elif (a < 0);
+  print("Negative")
+
 if (b*b - 4*a*c < 0):
   print("No real roots")
 elif (b*b - 4*a*c == 0): # equal roots
