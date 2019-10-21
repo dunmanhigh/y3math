@@ -1,5 +1,6 @@
 #finding area of circle
-pi=3.124
+import math
+
 radius=12345
-area=pi*radius**2
+area=math.pi*radius**2
 print(area)
