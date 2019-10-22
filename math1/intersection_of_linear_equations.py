@@ -11,3 +11,4 @@ else:
     m = (d - b) / (a - c)
     n = a * m + b
     print("coordinate of intersection is (", m, ",", n, ")")
+    ...
