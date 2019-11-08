@@ -2,7 +2,7 @@
 
 a = float(input("Enter a, b for y = ax + b: "))
 b = float(input())
-c = float(input("Enter c, d for y - cx + d: "))
+c = float(input("Enter c, d for y = cx + d: "))
 d = float(input())
 
 if a == c:
